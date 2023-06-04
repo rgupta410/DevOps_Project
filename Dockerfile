@@ -1,4 +1,4 @@
-FROM  centos8
+FROM  centos:centos8
 MAINTAINER rgupta410@gmail.com
 RUN yum install -y httpd \
  zip\
